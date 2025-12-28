@@ -156,6 +156,9 @@ RAG/
 ├── requirements.txt
 └── README.md
 ```
+> ⚠️ Note: The `data/processed` folder includes precomputed artifacts (`chunks.json`, `embeddings.npy`, and `faiss.index`). These files are included for ease of
+running the app immediately. If documents are updated, regenerate them by running the ingestion and embedding scripts.
+
 ## ⚙️ Ollama Installation (Required)
 
 ### 🐧 Linux
